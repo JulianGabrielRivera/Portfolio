@@ -3,7 +3,10 @@ import { Link } from 'react-router-dom';
 function Navbar() {
   return (
     <>
-      <nav className='navbar navbar-expand-lg navbar-light w-100'>
+      <nav
+        className='navbar navbar-expand-lg navbar-light w-100 fixed-top'
+        style={{ backgroundColor: '#4d1426' }}
+      >
         <div className='container-fluid mx-5'>
           <button
             className='navbar-toggler'
@@ -50,13 +53,27 @@ function Navbar() {
             </ul>
           </div>
           <div className='fontAwesomeIcons'>
-            <i class='fa-brands fa-github' style={{ marginRight: '20px' }}></i>
-            <i
-              class='fa-brands fa-linkedin'
-              style={{ marginRight: '20px' }}
-            ></i>
+            <a
+              href='https://github.com/JulianGabrielRivera'
+              style={{ color: 'white' }}
+            >
+              <i
+                class='fa-brands fa-github'
+                style={{ marginRight: '20px' }}
+              ></i>
+            </a>
+            <a
+              href='https://linkedin.com/in/julian-g-rivera'
+              style={{ color: 'white' }}
+            >
+              <i
+                class='fa-brands fa-linkedin'
+                style={{ marginRight: '20px' }}
+              ></i>
+            </a>
           </div>
         </div>
+        <hr />
       </nav>
     </>
   );

@@ -8,16 +8,17 @@ import numinousOne from '../images/numinous1.png';
 function Portfolio() {
   return (
     <>
+      <hr />
+      <h1 style={{ textAlign: 'center' }}>Projects</h1>
       <div class='card-group'>
         <div
           class='card m-5 border border-2 rounded-1'
           style={{
-            backgroundColor: '#4d1426',
+            backgroundColor: 'rgba(17, 17, 17, 1)',
           }}
         >
-          <img src={WASD} class='card-img-top' alt='...' />
           <div class='card-body'>
-            <h5 class='card-title'>Card title</h5>
+            <h5 class='card-title'>Space Between 2</h5>
             <p class='card-text'>
               My game project, designed with vanilla Javascript. Example of DOM
               manipulation, using class constructors, pushing images into an
@@ -39,12 +40,11 @@ function Portfolio() {
         <div
           class='card  m-5 border border-2 rounded-1'
           style={{
-            backgroundColor: '#4d1426',
+            backgroundColor: 'rgba(17, 17, 17, 1)',
           }}
         >
-          <img src={fitnessaWhite} class='card-img-top' alt='...' />
           <div class='card-body'>
-            <h5 class='card-title'>Card title</h5>
+            <h5 class='card-title'>Fitnessa</h5>
             <p class='card-text'>
               Full-Stack web app made to make it easy to find other like-minded
               people in their area who are into fitness or trying to lead a more
@@ -68,12 +68,11 @@ function Portfolio() {
         <div
           class='card m-5 border border-2 rounded-1'
           style={{
-            backgroundColor: '#4d1426',
+            backgroundColor: 'rgba(17, 17, 17, 1)',
           }}
         >
-          <img src={numinousOne} class='card-img-top' alt='...' />
           <div class='card-body'>
-            <h5 class='card-title'>Card title</h5>
+            <h5 class='card-title'>Numinous</h5>
             <p class='card-text'>
               This is a wider card with supporting text below as a natural
               lead-in to additional content. This card has even longer content
@@ -186,7 +185,6 @@ function Portfolio() {
           </div>
         </div>
       </div> */}
-
       {/* <div className='firstContainer'>
         <h2 className='fullStack'>Full Stack Web Developer</h2>
         <hr />

@@ -7,7 +7,7 @@ const Home = () => {
           <h2>printf("Hello World!")</h2>
           <h3>Julian Gabriel Rivera - A Full Stack Web Developer</h3>
         </div>
-
+        <hr />
         {/* <p style={{ textAlign: 'center', marginTop: '50px' }}>
           HTML CSS Javascript React.js Node.js Express.js Bootstrap Axios
           MongoDB, Mongoose
