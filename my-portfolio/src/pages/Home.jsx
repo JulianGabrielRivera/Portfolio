@@ -5,19 +5,7 @@ const Home = () => {
       <div className='homeContainer'>
         <div className='landing-image'>
           <h2>printf("Hello World!")</h2>
-          <h3
-            style={{
-              position: 'absolute',
-
-              bottom: '20%',
-              right: '10%',
-
-              color: 'white',
-              fontWeight: 'bold',
-            }}
-          >
-            Julian Gabriel Rivera - <small>A Full Stack Web Developer</small>
-          </h3>
+          <h3>Julian Gabriel Rivera - A Full Stack Web Developer</h3>
         </div>
 
         {/* <p style={{ textAlign: 'center', marginTop: '50px' }}>

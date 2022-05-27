@@ -49,6 +49,13 @@ function Navbar() {
               <li className='nav-item me-4'>Contact</li>
             </ul>
           </div>
+          <div className='fontAwesomeIcons'>
+            <i class='fa-brands fa-github' style={{ marginRight: '20px' }}></i>
+            <i
+              class='fa-brands fa-linkedin'
+              style={{ marginRight: '20px' }}
+            ></i>
+          </div>
         </div>
       </nav>
     </>
