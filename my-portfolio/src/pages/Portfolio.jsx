@@ -10,7 +10,7 @@ function Portfolio() {
     <>
       <div class='card-group'>
         <div
-          class='card m-5 border border-2'
+          class='card m-5 border border-2 rounded-1'
           style={{
             backgroundColor: '#4d1426',
           }}
@@ -37,7 +37,7 @@ function Portfolio() {
         </div>
         <hr />
         <div
-          class='card  m-5 border border-2'
+          class='card  m-5 border border-2 rounded-1'
           style={{
             backgroundColor: '#4d1426',
           }}
@@ -66,7 +66,7 @@ function Portfolio() {
         </div>
         <hr />
         <div
-          class='card m-5 border border-2'
+          class='card m-5 border border-2 rounded-1'
           style={{
             backgroundColor: '#4d1426',
           }}

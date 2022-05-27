@@ -49,11 +49,8 @@ function Navbar() {
               <li className='nav-item me-4'>Contact</li>
             </ul>
           </div>
-
-          <h1 className='myName'>Julian Gabriel Rivera</h1>
         </div>
       </nav>
-      <hr />
     </>
   );
 }
